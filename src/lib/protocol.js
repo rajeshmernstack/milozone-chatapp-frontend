@@ -26,4 +26,4 @@ export const ADMIN = {
 export const ADMIN_WS_URL = 'https://milozone-chatapp-backend-production.up.railway.app/ws/admin';
 export const API_URL = 'https://milozone-chatapp-backend-production.up.railway.app';
 
-export const WS_URL = 'ws://milozone-chatapp-backend-production.up.railway.app/ws';
+export const WS_URL = 'wss://milozone-chatapp-backend-production.up.railway.app/ws';
