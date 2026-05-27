@@ -14,7 +14,10 @@ export default function Landing() {
 
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
-        (pos) => setLocation({ lat: pos.coords.latitude, lng: pos.coords.longitude }),
+        (pos) => {
+          console.log(pos)
+          setLocation({ lat: pos.coords.latitude, lng: pos.coords.longitude })
+        },
         () => {},
         { timeout: 5000 }
       );
