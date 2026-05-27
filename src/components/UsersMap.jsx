@@ -12,7 +12,6 @@ L.Icon.Default.mergeOptions({
 
 export default function UsersMap() {
   const users = useAdminStore((s) => s.users);
-  console.log(users)
   const userList = [...users.values()].filter((u) => u.location);
 
   return (

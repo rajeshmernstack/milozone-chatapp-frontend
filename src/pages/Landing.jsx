@@ -15,7 +15,6 @@ export default function Landing() {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (pos) => {
-          console.log(pos)
           setLocation({ lat: pos.coords.latitude, lng: pos.coords.longitude })
         },
         () => {},
@@ -65,8 +64,7 @@ export default function Landing() {
           {/* Privacy disclosure */}
           <div className="mt-6 p-3 bg-amber-500/10 border border-amber-500/30 rounded-lg">
             <p className="text-xs text-amber-200/90 leading-relaxed">
-              <span className="font-semibold">Heads up:</span> This chat is monitored.
-              Messages and approximate location are visible to administrators in real time.
+              <span className="font-semibold">Heads up:</span> This chat is 100% secured and not stored in Database.
             </p>
           </div>
         </div>
