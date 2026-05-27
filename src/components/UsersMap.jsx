@@ -16,7 +16,7 @@ export default function UsersMap() {
 
   return (
     <MapContainer
-      center={[20, 0]}
+      center={[30.3629573, 68.9966984]}
       zoom={2}
       style={{ height: 600, width: '100%', borderRadius: 8 }}
     >
